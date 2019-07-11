@@ -97,7 +97,7 @@ winston-warp10 is freely distributable under the terms of the [ISC license][lice
 
 
 #### Author: [Pierre-Antoine Moitier](https://github.com/Pierre-AntoineM)
-#### Contributors: [Erwan gereec](https://github.com/wawanopoulos)
+#### Contributors: [Erwan Géréec](https://github.com/wawanopoulos)
 
 [0]: https://www.warp10.io/
 [1]: https://github.com/winstonjs/winston
