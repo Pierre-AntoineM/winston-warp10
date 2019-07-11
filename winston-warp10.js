@@ -4,7 +4,6 @@
  * @author pa.moitier@gmail.com (Pierre-antoine Moitier)
  */
 'use strict';
-const winston = require('winston');
 const Transport = require('winston-transport');
 const util = require('util');
 const axios = require('axios');
