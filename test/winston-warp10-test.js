@@ -7,7 +7,7 @@
  /* Check https://sandbox.senx.io to get your writeToken */
 'use strict';
 const test = require('abstract-winston-transport');
-const Warp10 = require('winston-warp10').Warp10;
+const Warp10 = require('../winston-warp10').Warp10;
 const protocolHttp = "https";
 const protocolWs = "wss";
 const host = "sandbox.senx.io";
