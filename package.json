@@ -1,6 +1,6 @@
 {
   "name": "winston-warp10",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Winston logger transport for Warp10",
   "main": "winston-warp10.js",
   "scripts": {
@@ -9,6 +9,10 @@
   },
   "author": "Pierre-Antoine Moitier",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pierre-AntoineM/winston-warp10"
+  },
   "keywords": [
     "log",
     "winston",
