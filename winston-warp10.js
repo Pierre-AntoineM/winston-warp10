@@ -188,15 +188,20 @@ Warp10.prototype.log = function(info, callback) {
           .then((response) => {
             console.log("Post response : " + response.status + ' ' + response.statusText);
             this.emit('logged');
-            callback(null, true);
+            callback(null, true)
           })
           .catch((error) => {
-            console.log(error);
-            this.emit('error', error);
-            callback(error);
-          })
+            try {
+              this.emit('error', error);
+              callback(error);
+            }
+            catch(err) {
+              console.log("Error attempting to log : " + err);
+            }
+          })  
       }
-    })      
+    });
+    return true;      
 }
 
 /* Stringify */
