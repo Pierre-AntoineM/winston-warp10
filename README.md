@@ -86,7 +86,11 @@ customLogger.info("Hello from Paris");
 Changelog
 ---------
 
-***Current Version: 1.0.00*** — Released 2019-07-03
+***Current Version: 1.0.1*** — Released 2019-07-15
+
+* Handle promise rejection warning
+
+***Version: 1.0.0*** — Released 2019-07-03
 
 * Introducing the warp10 Transport for winston.
 
