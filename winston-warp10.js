@@ -196,7 +196,7 @@ Warp10.prototype.log = function(info, callback) {
               callback(error);
             }
             catch(err) {
-              console.log("Error attempting to log : " + err);
+              console.log("Error attempting to log : " + error.response.statusText);
             }
           })  
       }
