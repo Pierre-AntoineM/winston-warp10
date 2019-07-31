@@ -85,8 +85,11 @@ customLogger.info("Hello from Paris");
 
 Changelog
 ---------
+***Current Version: 1.0.2*** — Released 2019-07-31
 
-***Current Version: 1.0.1*** — Released 2019-07-15
+* Update axios.post error message
+
+***Version: 1.0.1*** — Released 2019-07-15
 
 * Handle promise rejection warning
 
