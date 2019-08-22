@@ -85,7 +85,11 @@ customLogger.info("Hello from Paris");
 
 Changelog
 ---------
-***Current Version: 1.0.2*** — Released 2019-07-31
+***Current Version: 1.0.3*** — Released 2019-08-22
+
+* Correctly escape special chars in string value
+
+***Version: 1.0.2*** — Released 2019-07-31
 
 * Update axios.post error message
 

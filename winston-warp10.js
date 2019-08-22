@@ -161,7 +161,7 @@ Warp10.prototype.log = function(info, callback) {
 
       var url = this.url;
       var data = this.timestamp + "/" + this.coords + "/"+ this.elevation + " " 
-      + this.className + "{" + this.labels + "}" + "'" + logObject.message + "'";
+      + this.className + "{" + this.labels + "}" + "'" + escape(logObject.message) + "'";
 
       if (this.protocol === "wss" || this.protocol === "ws"){
 
