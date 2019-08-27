@@ -1,6 +1,6 @@
 {
   "name": "winston-warp10",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Winston logger transport for Warp10",
   "main": "winston-warp10.js",
   "scripts": {

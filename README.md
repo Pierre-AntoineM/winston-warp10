@@ -85,7 +85,11 @@ customLogger.info("Hello from Paris");
 
 Changelog
 ---------
-***Current Version: 1.0.3*** — Released 2019-08-22
+***Current Version: 1.0.4*** — Released 2019-08-27
+
+* Fix error.response undefined in post request
+
+***Version: 1.0.3*** — Released 2019-08-22
 
 * Correctly escape special chars in string value
 
